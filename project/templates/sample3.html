@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<p>
+
+In the beginning of human life, many devices are invented by human. The most important of these devices undoubted is fire and the second one is wheels. Invention of wheels was created a way for produce the first car. I do not have enough information that when and where the first car is produced, but I believe its inventor is was a genius.
+
+In modern world, we cannot imagine a life without cars. In some ways, our life depended on cars. Cars have a lot of disadvantages and disadvantages, I consider some of them. The first advantage is our life become well. In the past, people do not have car, they used to animals for journey or traveling. Using of animal had some limitation, if we wanted to go some city; they would in way for more than two days.
+
+Secondly, cars are very fast and comfortable. We can use air condition for having fresh air. Cars are made in many sizes and for many purposes. We have sport cars, ambulances, Police cars, buses and so on. All of these types have significant role in human life.
+
+On the other hands, there are some disadvantages. Having a car is costly. Car is not a cheap device; we have to pay more money to buy one of them. In addition, we must buy other thing such as fossil fuel, antifreeze, new wheels for our car. Also sometimes, our car stops working, so we need a mechanic to repair it. All of these issues need money. The worst part is fossil fuel. Increasing of number cars in our street and all of them using fossil fuel. Consequently, our climate becomes more and more pollute.
+
+To sum up, although, car has disadvantages; we cannot stop using of them. We can just try to improve them, find green fuel and using it instead of harmful fuel.
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    uri=window.location
+   // url= encodeURIComponent(uri);
+   
+
+    url_string=String(uri)
+  //  url_string="http://www.testbig.com/ielts-essays/discuss-advantages-and-disadvantages-having-car"
+    //alert(typeof(url_string))
+    destination="http://127.0.0.1:5000/getdata/"
+    
+    
+    
+    
+    
+    
+        $.post("http://127.0.0.1:5000/getdata",
+        {
+          url:url_string
+        },
+        function(data,status){
+          //  alert("on u r mark")
+            
+            //var image=window.btoa(unescape(encodeURIComponent(data)))
+
+            //alert(image)
+           // document.getElementById('ad').setAttribute( 'src', 'data:image/png;base64,'+image);
+           ad_image="data:image/jpeg;base64,"+data
+           document.getElementById('ad').setAttribute( 'src', ad_image);
+//alert("conrats keep it up")
+
+
+            
+           // alert(typeof(data))
+
+        });
+    });
+
+</script>
+
+
+<a href="https://www.uber.com/en-IN/" target="_blank" style="cursor:pointer"><span style="font-weight:bold">AD-></span><img id="ad" height="200" width="200"></a>
+<br><br>
+
+
+
+
+Convenience. It's available whenever you want right at your house, no need to make your way to a bus stop or train station and then wait for the bus/train to arrive (late, as usual). The amount of time saved by not getting to and waiting for public transport is significant. If I caught a bus to work it would probably take 30 minutes from leaving home to getting to work, probably early (more wasted time).
+Cheaper running costs. I find driving my car is cheaper than catching public transport in Brisbane. I live fairly close to the city and it takes me on average 6 minutes to drive to work from home. I might fill up my car for $80 once every two weeks. Catching the bus daily would cost me about $10/day or $100 over two weeks. Even better on the motorbike, which is about $20 per fortnight to fill.
+Public transport sucks donkey balls. It's often late, if it turns up at all. If you live close to the city it can be full by the time it gets to you (I don't know how many full busses drove straight past me when I lived in Kelvin Grove, but it was infuriating every time it happened). If it's been raining ,it reeks. Weirdos seem to congregate around train stations. And, oh man, avoid the after school rush whenever possible!
+Sheltered transport: when it rains or is windy, you have a warm, comfortable cocoon to travel in. No need to wait out in the open getting hammered by the weather.
+Free street parking at nights and on weekends means saving money on taxis. Whenever we need to go out to a function involving alcohol, we drive in and leave our car on the street nearby, catching a taxi home. The next day we both 
+
+</p>
+
+
+</body>
+
+
+
+</html>

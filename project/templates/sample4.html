@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<p>
+
+Google Photos helped me. :)
+
+I lost my mobile almost 4 months back. It was actually stolen from my room. I tried calling etc. etc. but then just lost hope and gave up.
+
+But, I had my contacts, photos etc all synced with my Google Account hence it was not a concern and I have already bought a new phone.
+
+A month later I found some random pics/selfies of the flat's caretaker on my Google Photos. I thought he might have mistakenly shared it on my whatsapp or something. When I checked everywhere there was no possible source except my old phone's auto sync.
+
+I checked the image details and found the pic’s device details to be my old phone and location near to my rented flat. I called up the caretaker and threatened him by showing pics and that I will tell the owner etc. Then he agreed that he picked it from my room and gave it back to me.
+
+To my luck he was not literate enough to format the phone and logout the apps.
+
+And yes I live in India. :D
+
+Edit: Google Images -> Google Photos (thanks @Rashmi Bachani for correction)
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    uri=window.location
+   // url= encodeURIComponent(uri);
+   
+
+    url_string=String(uri)
+    url_string="https://www.quora.com/Did-you-ever-find-your-lost-phone/answer/Nitish-Jalan?srid=u6vSf"
+    //alert(typeof(url_string))
+    destination="http://127.0.0.1:5000/getdata/"
+    
+    
+    
+    
+    
+    
+        $.post("http://127.0.0.1:5000/getdata",
+        {
+          url:url_string
+        },
+        function(data,status){
+          //  alert("on u r mark")
+            
+            //var image=window.btoa(unescape(encodeURIComponent(data)))
+
+            //alert(image)
+           // document.getElementById('ad').setAttribute( 'src', 'data:image/png;base64,'+image);
+           ad_image="data:image/jpeg;base64,"+data
+           document.getElementById('ad').setAttribute( 'src', ad_image);
+//alert("conrats keep it up")
+
+
+            
+           // alert(typeof(data))
+
+        });
+    });
+
+</script>
+
+
+<a href="https://www.flipkart.com/" target="_blank" style="cursor:pointer"><span style="font-weight:bold">AD-></span><img id="ad" height="200" width="200"></a>
+<br><br>
+
+<p>
+
+Using an iPhone is like riding the bus to work.
+
+You’re surrounded by people who have something in common with you. Regardless of what you want to do or where you want to go, the bus will stop at the same places, and you will end up at work. The company who owns the bus is responsible for your safety; you just have to pay for the ride.
+
+Using an Android is like driving your car to work.
+
+Your car is yours. You’re in control of it. You have a lot more freedom to do whatever you want with it. The car manufacturer makes an effort to make the car safe, but in the end, it’s your responsibility to drive safely. You still end up at work, assuming you drive safely.
+
+In the end, it just comes down to preference. Do you prefer ease of use, or freedom?
+92k Views · View Upvotes
+Upvote2.1kDownvoteComments36+
+Shar
+
+
+</p>
+
+
+</body>
+
+
+
+</html>

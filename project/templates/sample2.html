@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<p>
+
+
+DVDs are amongst the most common methods of copying and backing up data at home.
+DVD
+A DVD is similar to a CD in that it is an optical device and that a laser is used to store the data and read the data.
+A single layer DVD can store about 4.7Gb of data.
+A double layer DVD can hold over 9Gb of data.
+One problem with the DVD is that the different companies which make them have not agreed on a standard format.
+Because of this, you will see various kinds of DVD disks for sale: DVD-R, DVD+R, DVD-RW and DVD+RW. You have to make sure that you buy the right kind of disk to go with your DVD equipment.
+ 
+Advantages of DVDs  Disadvantages of DVDs
+Very large storage capacity 4.7-9 Gb  DVDs do not work in CD drives
+Sound and picture quality is excellent, making them ideal for storing films with video and sound. There is no single standard of DVD
+DVDs are now mass produced so they are relatively cheap They can be easily damaged by breaking or scratching
+DVD drives can read CDs  
+ 
+Properties of a DVD
+Property  Notes
+Type of storage Optical
+Data access Direct access
+Cost of storage DVDs cost more per byte of storage than hard disks, magnetic tapes or flash memory. They are less expensive than CDs per byte of storage.
+Capacity  4.7 (single layer) to 9 Gigabytes (double layer)
+Speed Slower than a hard disk or flash memory, faster than magnetic tape
+Portability 
+Fairly portable. Too large to fit into a pocket, but will easily fit inside a bag. Can be carried between home/school/office.
+Durability  
+Easily scratched by general wear and tear or by not protecting it in a plastic case. Scratches on the disk surface can damage the data being stored
+Needs to be protected from extremes of heat.
+Has a limited number of read/write cycles.
+Reliability 
+If scratched, the data might not be able to be read.
+Needs a computer with a DVD drive in order to read the disk. Cannot be read by a CD drive.
+Challenge see if you can find out one extra fact on this topic that we haven't already told you
+Click on this link: DVD
+© www.teach-ict.com
+About Us Privacy Policy Terms of Use FAQ
+
+Visit Teach-ICT: http://www.teach-ict.com
+Visit Teach-ICT: http://www.teach-ict.com
+
+
+
+
+<script>
+$(document).ready(function(){
+    uri=window.location
+   // url= encodeURIComponent(uri);
+   
+
+    url_string=String(uri)
+    url_string="http://www.teach-ict.com/gcse_new/computer%20systems/storage_devices/miniweb/pg8.htm"
+    //alert(typeof(url_string))
+    destination="http://127.0.0.1:5000/getdata/"
+    
+    
+    
+    
+    
+    
+        $.post("http://127.0.0.1:5000/getdata",
+        {
+          url:url_string
+        },
+        function(data,status){
+            //alert("on u r mark")
+            
+            //var image=window.btoa(unescape(encodeURIComponent(data)))
+
+            //alert(image)
+           // document.getElementById('ad').setAttribute( 'src', 'data:image/png;base64,'+image);
+           ad_image="data:image/jpeg;base64,"+data
+           document.getElementById('ad').setAttribute( 'src', ad_image);
+//alert("conrats keep it up")
+
+
+            
+           // alert(typeof(data))
+
+        });
+    });
+
+</script>
+
+
+<a href="http://moserbaer.com/" target="_blank" style="cursor:pointer"><span style="font-weight:bold">AD-></span><img id="ad" height="200" width="200"></a>
+<br><br>
+
+
+
+
+
+Advantages of DVDs  Disadvantages of DVDs
+Very large storage capacity 4.7-9 Gb  DVDs do not work in CD drives
+Sound and picture quality is excellent, making them ideal for storing films with video and sound. There is no single standard of DVD
+DVDs are now mass produced so they are relatively cheap They can be easily damaged by breaking or scratching
+DVD drives can read CDs  
+ 
+Properties of a DVD
+Property  Notes
+Type of storage Optical
+Data access Direct access
+Cost of storage DVDs cost more per byte of storage than hard disks, magnetic tapes or flash memory. They are less expensive than CDs per byte of storage.
+Capacity  4.7 (single layer) to 9 Gigabytes (double layer)
+Speed Slower than a hard disk or flash memory, faster than magnetic tape
+Portability 
+Fairly portable. Too large to fit into a pocket, but will easily fit inside a bag. Can be carried between home/school/office.
+Durability  
+Easily scratched by general wear and tear or by not protecting it in a plastic case. Scratches on the disk surface can damage the data being stored
+Needs to be protected from extremes of heat.
+Has a limited number of read/write cycles.
+Reliability 
+If scratched, the data might not be able to be read.
+Needs a computer with a DVD drive in order to read the disk. Cannot be read by a CD drive.
+Challenge see if you can find out one extra fact on this topic that we haven't already told you
+Click on this link: DVD
+
+
+
+</p>
+
+
+</body>
+
+
+
+</html>

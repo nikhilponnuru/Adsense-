@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Publisher</title>
+	
+	
+</head>
+<body style="background-color: #A13D63" onload="username()">
+<link rel="stylesheet" type="text/css" href="publisher-feed.css"/>
+
+
+<div id="userSymbol" style="float:right;border-radius: 64px;background-color: black;border: 3px solid red;"></div>
+
+
+
+
+<h1 style="margin-left: 400px;color:#FFDC00;font-size:50px">AdSense</h1>
+ 
+
+
+
+
+
+<script type="text/javascript">
+function username(){
+	//alert("hello")
+    
+	user=localStorage.getItem("username")
+	document.getElementById('usname').innerHTML="nikhil"
+	//alert(user)
+}
+
+function logout(){
+	localStorage.removeItem('username');
+	window.location="http://localhost:5000/"
+}
+</script>
+
+
+
+
+
+  
+
+
+
+
+ <form action = "http://localhost:5000/uploadimage" method = "POST" 
+         enctype = "multipart/form-data">
+  <input type="file" name="file" accept="image/*">
+   settag<input type="text" style="width:250px;height: 60px" name="settag">
+ username  <input id="usname" type="text" name="uname" >
+ nameof company <input id="na" type="text" name="nameof">
+  <input type="submit" >
+ 
+</form>
+<br><br><br><br>
+<form action="http://localhost:5000/getanalytics" method="POST">
+	To Get analytics 
+	Enter name of company<input type="text" name="usname">
+	<input type="submit">
+</form>
+
+ 
+
+
+
+<input id="box1" type="submit" name="submit" style="display: none"> 
+
+
+
+
+
+
+</body>
+</html>

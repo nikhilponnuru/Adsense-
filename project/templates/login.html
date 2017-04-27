@@ -1,0 +1,105 @@
+<html>
+<head>
+	  <div style="background-color:black;height:90px;width: 100%">
+          <h3 style="padding-left: 500px;padding-top:30px "><span style="color: yellow">ADSENSE</span></h3>
+	  </div>
+</head>
+
+   <body style="background-color:#FF851B">
+
+
+
+
+   <script type="text/javascript">
+   	
+   	  function show1(){
+   	  	
+        var catch1=document.getElementById('2');
+
+       catch1.style.display='none'
+
+       var catch1=document.getElementById('1');
+       catch1.style.display='block'
+
+   }
+/*
+
+    function show2(){
+
+       var catch1=document.getElementById('1');
+       catch1.style.display='none'
+
+       var catch1=document.getElementById('2');
+       catch1.style.display='block'
+
+
+   }
+
+*/
+   </script>
+
+   <div id="1" class="solid" style="margin-left: 380px;margin-top: 150px;background-color: #AAAAAA">
+      <a href="" style="float: right;padding-right: 10px;font-size: 20px" onclick="return show2()">signup</a>
+      <form action = "http://localhost:5000/publisherlogin" method = "POST">
+         <div style="padding: 30px" >
+         <h4>Enter User name</h4>
+         <input type = "text" name = "username" autocomplete="off" />
+          <br><br>
+          <h4>Password</h4>
+         <input type="password" name="password" autocomplete="off">
+         <br><br>
+
+         <p><input type = "submit" value = "submit" style="background-color:#2ECC40;height:30px;width: 200px;font-size: 20px;" /></p>
+         </div>
+      </form>
+
+  </div>
+
+<!--
+
+  <div id="2" class="solid" style="margin-left: 380px;margin-top: 150px;background-color: #AAAAAA">
+      <a href="" style="float: right;padding-right: 10px;font-size: 20px" onclick="return show1()">login</a>
+      <form action = "http://localhost:5000/login" method = "POST">
+         <div style="padding: 30px" >
+         <h4>Enter User name</h4>
+         <input type = "text" name = "username" autocomplete="off" />
+          <br><br>
+          <h4>Password</h4>
+         <input type="password" name="password" autocomplete="off">
+         <br><br>
+         <h4>Advertiser or Subscriber of ads</h4>
+         <input type="type" name="typeofuser" autocomplete="">
+
+         <p><input type = "submit" value = "submit" style="background-color:#2ECC40;height:30px;width: 200px;font-size: 20px;" /></p>
+         </div>
+      </form>
+
+  </div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+  <style type="text/css">
+  	div.solid {border-style: solid; height: 300px;width: 300px}
+  </style>
+
+
+
+
+
+
+
+
+
+  
+   </body>
+</html>

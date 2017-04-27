@@ -1,0 +1,183 @@
+ac,0.48,ad
+acoustic,0.22,non ad
+advantage,0.7,non ad
+advantages,0.75,non ad
+air,0.46,non ad
+air,0.5,non ad
+air filter,0.5,ad
+alloy,0.24,non ad
+battery,0.4,ad
+battery,0.55,ad
+bicycle,0.47,ad
+bike,0.78,ad
+binoculars,0.39,ad
+bluetooth,0.75,ad
+brake,0.5,ad
+bright,0.2,non ad
+bulbs,0.49,ad
+bus,0.55,ad
+cables,0.61,non ad
+camcorder,0.67,ad
+camera,0.62,ad
+car,0.74,ad
+car,0.7,ad
+cars,0.7,ad
+Cars,0.45,ad
+CDs,0.67,ad
+ceiling fan,0.32,ad
+cell,0.76,ad
+cell,0.87,ad
+cell phone,0.77,ad
+cellular,0.48,ad
+cfc,0.29,non ad
+cfl,0.35,ad
+charger,0.55,ad
+city,0.4,non ad
+clean,0.65,non ad
+clothes,0.63,ad
+coffeemaker,0.68,ad
+coil,0.42,non ad
+comprehensive,0.23,non-ad
+cooker,0.45,ad
+cooking,0.5,ad
+cool,0.25,non ad
+cooler,0.55,ad
+crt,0.35,ad
+data,0.32,non ad
+desktop,0.65,ad
+detergents,0.4,non ad
+device,0.33,non ad
+disadvantage,0.7,non ad
+disadvantages,0.75,non ad
+disk,0.65,ad
+display,0.56,non ad
+drive,0.4,non ad
+dryer,0.35,non ad
+durable,0.21,non ad
+dust,0.25,non ad
+dvd,0.68,ad
+effective,0.14,non-ad
+electricity,0.65,non ad
+electronics,0.71,ad
+energy,0.45,non ad
+features,0.35,non ad
+filament,0.25,ad
+filter,0.35,non ad
+flight,0.69,ad
+football,0.59,ad
+fuel,0.35,non ad
+full automatic machine,0.12,ad
+functons,0.25,non ad
+fuss,0.2,non ad
+gas,0.21,ad
+gear,0.58,ad
+guitar,0.53,ad
+hardware,0.21,non ad
+headset,0.68,ad
+heat,0.36,non ad
+heat ,0.34,non ad
+heat pump,0.35,non ad
+heater,0.57,ad
+human,0.3,non ad
+images,0.25,non ad
+incandescent,0.45,non ad
+ipad,0.8,ad
+ipod,0.68,ad
+keypad,0.55,non ad
+landline,0.65,ad
+laptop,0.7,ad
+laundry machine,0.5,ad
+lcd,0.49,ad
+led,0.5,ad
+life,0.2,non ad
+light,0.42,non ad
+luxury ,0.36,non-ad
+microphone,0.45,ad
+microsd,0.59,ad
+mifi,0.45,ad
+mixer,0.65,ad
+mobile,0.78,ad
+mobile,0.77,ad
+mobile,0.9,ad
+money,0.5,ad
+monitor,0.5,ad
+motor,0.3,non ad
+motorcycle,0.69,ad
+motorola,0.67,ad
+motorola,0.77,ad
+mouse,0.75,ad
+mp3 player,0.7,ad
+noise,0.21,non ad
+nokia,0.56,ad
+oven,0.6,ad
+oven,0.55,ad
+pacemaker,0.58,ad
+pagewriter,0.57,ad
+pen,0.45,ad
+pendrive,0.78,non ad
+petrol,0.36,non-ad
+phone,0.75,ad
+pixel,0.3,non ad
+plastic,0.4,non ad
+pollution,0.5,non ad
+pollution,0.36,non ad
+portability,0.48,non ad
+portable,0.36,non ad
+powerbank,0.45,ad
+pressure,0.33,non-ad
+price,0.35,non ad
+printer,0.48,ad
+quickcam,0.54,ad
+radio,0.63,ad
+rain,0.2,non ad
+ram,0.58,ad
+razor,0.4,non ad
+refrigerant,0.6,ad
+reinforced,0.23,non ad
+resolution,0.24,non ad
+road,0.4,non-ad
+rocket ,0.35,ad
+room,0.35,non ad
+roomba,0.43,ad
+router,0.74,ad
+service,0.35,non ad
+sheets,0.5,ad
+signal,0.33,non ad
+smartphone,0.8,ad
+smartphone,0.8,ad
+software,0.59,ad
+space,0.25,non ad
+speed,0.3,non ad
+speed,0.36,non ad
+sport,0.8,ad
+stake,0.4,non-ad
+stapler,0.77,ad
+steel,0.4,non ad
+string,0.35,non ad
+style,0.31,non ad
+suspension,0.55,ad
+suv,0.6,ad
+taxi,0.6,ad
+television,0.6,ad
+temperature,0.25,non ad
+temperature,0.25,non ad
+toaster,0.57,ad
+toothbrush,0.12,non ad
+torque,0.26,non-ad
+train,0.35,ad
+travel,0.36,non ad
+tubelight,0.45,ad
+tyre ,0.45,ad
+vaccum cleaner,0.67,ad
+vcr,0.65,ad
+voltage,0.15,non ad
+walkman,0.68,ad
+walkman,0.48,ad
+washer,0.42,ad
+washing,0.65,ad
+watch,0.25,non ad
+wheel,0.56,ad
+wheel,0.35,non ad 
+movie,0.8,ad
+film,0.81,ad
+cinema,0.6,ad
